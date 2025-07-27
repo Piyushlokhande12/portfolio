@@ -1,0 +1,51 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DARK MODE */
+#dark {
+  background-color: #000000;
+  color: #f4eee0;
+}
+
+/* Responsive Footer */
+@media (max-width: 600px) {
+  .footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+}
+
+/* Global Styles */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c 50%, #1f1c2ce8 50%);
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Container from App.js */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Diagonal Glass Box */
+.diagonal-box {
+  background: rgba(240, 234, 234, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  color: white;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
