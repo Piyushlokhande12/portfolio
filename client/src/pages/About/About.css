@@ -78,8 +78,7 @@
   margin: 0 auto 20px;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid #719e83;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .profile-pic {
